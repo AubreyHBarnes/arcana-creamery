@@ -1167,58 +1167,13 @@ address {
   }
 }
 
-
-
-
- .spectacledcoder-gradient-card1
- {
-     /* margin: auto;
-     margin-right: 1px; */
-     display: flex;
-     width: 100%;
-     height: auto;
-     background-image: linear-gradient(var(--gradient-angle),rgb(104, 3, 255), rgb(0, 0, 0));
-     border-radius: var(--radius-sm);
-     animation: rotation 5s linear 0s infinite normal forwards;
-     backdrop-filter: blur(50px);
- }
- 
- .spectacledcoder-content-card
- {
-     margin: auto;
-     width: 96%;
-     height: 96%;
-     background-color: black;
-     border-radius: var(--radius-sm);
-     transition: all 0.2s;
-     backdrop-filter: blur(5px);
-     display: flex;
-     flex-direction: column;
- }
  .gradient-card-image
  {
      width: 100%;
      height: 100%;
      object-fit: cover;
  }
- .spectacledcoder-content-card h1
- {
-     font-family: var(--font-display);
-     color: rgb(255, 255, 255);
-     font-size: 80px;
-     margin: auto;
-     font-weight: 100;
- }
- .spectacledcoder-content-card p
- {
-     /* font-family: 'Lilita One', sans-serif; */
-     color: rgb(255, 255, 255);
-     font-size: 16px;
-     margin: auto;
-     /* font-weight: lighter; */
-     /* text-align: justify; */
-     width: 90%;
- }
+
  .gradient-card-content
  {
      position: absolute;
@@ -1245,17 +1200,5 @@ address {
      initial-value: 0deg;
      inherits: false;
  }
- @media only screen and (max-width: 600px) 
- {
  
- .spectacledcoder-gradient-card1
- {
-     /* margin: auto; */
-     width: 100%;
-     min-height: 400px;
-     margin-top: 10px;
-     margin-bottom: 10px;
- }
-
- }
  
